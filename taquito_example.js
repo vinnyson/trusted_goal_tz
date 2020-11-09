@@ -66,7 +66,7 @@ InMemorySigner.fromSecretKey("insert_private_key_here")
 });
 
 
-//originating smart contract 
+//originating smart contract CHANGE THE tz1 address in init to make it the admin
 // InMemorySigner.fromSecretKey("insert_private_key_here")
 // .then( theSigner =>{
 //   Tezos.setProvider({signer: theSigner})
